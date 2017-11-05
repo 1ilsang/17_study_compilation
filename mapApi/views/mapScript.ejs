@@ -250,11 +250,11 @@
 
                 mouseInfoWindow.setContent([
                         '<div style="padding:10px;width:200px;line-height:150%;">',
-                        '<h4 style="margin-top:5px;">검색 좌표 : '+ response.result.userquery +'</h4><br />',
-                        htmlAddresses.join('<br />'),
-                        "<button onclick=makePinMouseInfoWindow("+response.result.items[0].point.x+','+ response.result.items[0].point.y+")>핀 설정</button>",
-                        "<button onclick=getCenterNopin("+response.result.items[0].point.x+','+ response.result.items[0].point.y+")>200m 찾기</button>",
-                        '<button onclick="closeMouseInfoWindow()">닫기</button>',
+                        '<h4 style="margin-top:5px;">어떻게 할까요? </h4><br />',
+                        
+                        "<button class='btn btn-blue ripple trial-button' onclick=makePinMouseInfoWindow("+response.result.items[0].point.x+','+ response.result.items[0].point.y+")>여기에 핀 설정</button><br><br>",
+                        "<button class='btn btn-blue ripple trial-button' onclick=getCenterNopin("+response.result.items[0].point.x+','+ response.result.items[0].point.y+")>근방200m 찾기</button><br><br>",
+                        '<button class="btn btn-blue ripple trial-button" onclick="closeMouseInfoWindow()">닫기</button>',
                         '</div>'
                     ].join('\n'));
 
