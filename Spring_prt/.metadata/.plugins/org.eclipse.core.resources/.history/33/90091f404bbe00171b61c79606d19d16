@@ -1,0 +1,29 @@
+package kotilnTest;
+
+public class Light {
+	private static int ON = 0; //형광등의 상태를 표시
+	private static int OFF = 1;
+	private int state; //형광등의 상태를 저장
+	//형광등에 있을 수 있는 모든 행위는 메서드로 표시한다. 
+	//이 메서드(행위)안에 각 상태에 맞는 코딩을 하면 된다.
+	public Light(){
+		state = OFF; //초기 형광등은 꺼져있다.
+	}
+	public void on_button_pushed(){
+		if(state == ON){
+			System.out.println("반응 없음");
+		}else{
+			System.out.println("Light On!");
+			state = ON;
+		}
+	}
+	public void off_button_pushed() {
+		if(state == OFF){
+			System.out.println("반응 없음");
+		}else{
+			System.out.println("Light Off!");
+			state = OFF;
+		}
+	}
+}
+

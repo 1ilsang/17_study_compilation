@@ -1,0 +1,19 @@
+package kotilnTest;
+
+public class fan {
+	private static int ON = 0;
+	private static int OFF = 1;
+	private static int WORKING = 2;
+	private int power_exist;
+	private int state;
+	
+	public fan(){
+		state = OFF;
+	}
+	
+	public void switch_on(){
+		if(power_exist){
+			turnon();
+		}
+	}
+}

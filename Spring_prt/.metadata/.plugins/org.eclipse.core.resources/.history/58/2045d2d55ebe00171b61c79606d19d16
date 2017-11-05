@@ -1,0 +1,17 @@
+package kotilnTest;
+
+public class Light {
+	private State state;
+	public Light(){
+		state = new OFF(); //초기 형광등은 꺼져있다.
+	}
+	public void  setState(State state) {
+		this.state = state;
+	}
+	public void on_button_pushed(){
+		state.on_button_pushed(this);
+	}
+	public void off_button_pushed() {
+		state.off_button_pushed(this);
+	}
+}

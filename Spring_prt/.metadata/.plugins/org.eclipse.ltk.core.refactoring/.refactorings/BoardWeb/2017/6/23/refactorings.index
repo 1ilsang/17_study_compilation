@@ -1,0 +1,13 @@
+1496644724178	Delete element
+1496649359691	Move 'login_proc.jsp' to 'webapp'
+1496661423617	Delete element
+1496738912209	Move 'action-servlet.xml' to 'config'
+1496738938226	Rename resource 'action-servlet.xml'
+1496739714069	Rename package 'com.springbook.view.controller'
+1496743130968	Move 2 resources to 'board'
+1496889744368	Move 2 resources to 'WEB-INF'
+1496889751168	Move 2 resources to 'webapp'
+1496920229444	Rename resource 'error.jsp'
+1496920247153	Rename resource 'error.jsp'
+1496920251740	Move 'error.jsp' to 'common'
+1497070750568	Copy package

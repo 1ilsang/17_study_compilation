@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.2.xsd
+		ttp://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.2.xsd">
+	
+	<!--  이 설정으로 Bean을 따로 추가해주지 않아도 된다. -->
+	<!-- <context:component-scan base-package="polymorphism"></context:component-scan> -->
+	
+	<context:component-scan base-package="com.springbook.biz"></context:component-scan>
+	<aop:aspectj-autoproxy></aop:aspectj-autoproxy>		
+	
+	<!-- 어노테이션과 xml 을 적절히 활용해 의존성 처리 -->
+	<beans>
+	<!-- Mybatis연동. SqlSessionFactoryBean 유틸 클래스 만들지 않아도 됨.  -->
+	<bean id="sessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<property name="dataSource" ref="dataSource"></property>
+		<property name="configLocation" value="classpath:sql-map-config.xml"></property>
+	</bean>
+	<!-- DAO클래스 구현 방법2 _클래스에서 상속받지 않고 사용-->
+	<!-- <bean id="sqlSession" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<property name="dataSource" ref="dataSource"></property>
+		<property name="configLocation" value="classpath:sql-map-config.xml"></property>
+	</bean>
+	<bean class="org.mybatis.spring.SqlSessionTemplate">
+		<constructor-arg ref="sqlSession"></constructor-arg>
+	</bean> -->
+	<!-- <bean id="log" class="com.springbook.biz.common.LogAdvice"></bean> -->
+	<!-- <bean id="around" class="com.springbook.biz.common.AroundAdvice"></bean>
+	<bean id="log" class="com.springbook.biz.common.BeforeAdvice"></bean>
+	<bean id="afterReturning" class="com.springbook.biz.common.AfterReturningAdvice"></bean>
+	<bean id="afterThrowing" class="com.springbook.biz.common.AfterThrowingAdvice"></bean>
+		<aop:config>
+			<aop:pointcut id="allPointcut" expression="execution(* com.springbook.biz..*Impl.*(..))"/>
+			<aop:pointcut id="getPointcut" expression="execution(* com.springbook.biz..*Impl.get*(..))"/> 
+			<aop:aspect ref="around">
+				<aop:around pointcut-ref="getPointcut" method="aroundLog"/>
+			</aop:aspect>
+			 <aop:aspect ref="log">
+				<aop:before pointcut-ref="getPointcut" method="beforeLog"/>
+			</aop:aspect> 
+			<aop:aspect ref="afterReturning">
+				<aop:after-returning pointcut-ref="getPointcut" method="afterLog" returning="returnObj"/>
+			</aop:aspect>
+			<aop:aspect ref="afterThrowing">
+				<aop:after-throwing pointcut-ref="allPointcut" method="exceptionLog" throwing ="exceptObj"/>
+			</aop:aspect>
+		</aop:config> -->
+		<!-- 
+		<bean id="userService" class="com.springbook.biz.user.Impl.UserServiceImpl">
+			<property name="userDAO" ref="userDAO"></property>
+		</bean>
+		<bean id="userDAO" class="com.springbook.biz.user.Impl.UserDAO"></bean> -->
+		<!-- Spring JDBC 설정 bean 등록해서 의존성 주입 -->
+		<bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+			<property name="dataSource" ref="dataSource"></property>
+		</bean>
+		<!-- DataSource 설정 -->
+		<context:property-placeholder location="classpath:config/database.properties"/>
+		<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
+					 destroy-method="close">
+					<property name="driverClassName" value="${jdbc.driver}"></property>			 
+					<property name="url" value="${jdbc.url}"></property>
+					<property name="username" value="${jdbc.username}"></property>
+					<property name="password" value="${jdbc.password}"></property>
+		</bean>
+		<!--  Transaction 설정==> 따로 공부를 더 해야할듯. 잘 모르겠음 (현재 코드는 Err)-->
+	<!-- 	<bean id="txManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+			<property name="dataSource" ref="dataSource"></property>
+		</bean>
+		<tx:advice id="txAdvice" transaction-manager="txManager">
+			<tx:attributes>
+				<tx:method name="get*" read-only="true"/>
+				<tx:method name="*"/>
+			</tx:attributes>
+		</tx:advice>
+		<aop:config>
+			<aop:pointcut id="txPointcut" expression="execution(* com.springbook.biz..*Impl.*(..))"/>
+			<aop:advisor pointcut-ref="txPointcut" advice-ref="txAdvice"/>
+		</aop:config> -->
+<!-- 		<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
+					 destroy-method="close">
+					<property name="driverClassName" value="oracle.jdbc.driver.OracleDriver"></property>			 
+					<property name="url" value="jdbc:oracle:thin:@127.0.0.1:1521:xe"></property>
+					<property name="username" value="scott"></property>
+					<property name="password" value="tiger"></property>
+		</bean> -->
+	</beans>
+	
+	
+	
+	<!-- TVUser main 
+	<bean id="tv" class="polymorphism.SamsungTV" 
+				 init-method="initMethod"
+				 destroy-method="destroyMethod"
+				 lazy-init="true"
+				 scope="singleton"
+
+				 p:speaker-ref="sony"
+				 p:price="2700000" 
+				 >
+			 	 index 값을 주면 몇 번째 매개변수로 들어가는지 지정가능 (명확) 
+				 생성자 인젝션
+				 <constructor-arg index="0" ref="sony"></constructor-arg>
+				 <constructor-arg index="0" ref="apple"></constructor-arg>
+				 <constructor-arg index="1" value="2700000"></constructor-arg>
+				 
+				  Setter 인젝션 - 위의 p 태그와 동일한 작동!! 
+				<property name="speaker" ref="apple"></property>
+				<property name="price" value="270000"></property>
+	 </bean> 
+	 <bean id="sony" class="polymorphism.SonySpeaker"></bean>
+	 <bean id="apple" class="polymorphism.AppleSpeaker"></bean>
+	 -->
+	 
+	 <!-- CollectionBeanClient Main
+	 	<bean id="collectionBean"  class="polymorphism.CollectionBean">
+	 			  <property name="addressList"> Setter 인젝션
+	 			  	중복 값 허용 list 객체 사용시
+	 			  	<list>
+	 			  		<value>서울시 강남구 역삼동</value>
+	 			  		<value>1ilsang.blog.me</value>
+	 			  	</list>
+	 			  	<set value-type="java.lang.String">
+	 			  		<value>서울시 강남구 역삼동</value>
+	 			  		<value>1ilsang.blog.me</value>
+	 			  		<value>1ilsang.blog.me</value>
+	 			  	</set>
+	 			   </property>
+	 </bean> -->
+</beans>

@@ -1,0 +1,11 @@
+package kotilnTest;
+
+public class fan {
+	private static int ON = 0;
+	private static int OFF = 1;
+	private int state;
+	
+	public fan(){
+		
+	}
+}

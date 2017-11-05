@@ -1,0 +1,8 @@
+package kotilnTest;
+
+
+public class FlyingStrategy implements MovingStrategy {
+  public void move(){
+    sysout("fly");
+  }
+}
