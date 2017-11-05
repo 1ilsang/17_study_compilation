@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>가톨릭대학교-미디어기술콘텐츠학과</title>
+</head>
+
+<script>
+   onload=function() {
+      var submenu=new Array();
+      var sub_tmps=document.getElementById("nav").getElementsByTagName("ul");
+      for (var i=0, len=sub_tmps.length; i<len; i++) {
+         if (sub_tmps[i].className=="localNav")
+            submenu.push(sub_tmps[i]);
+      }
+      var menu_tmps=document.getElementById("nav").getElementsByTagName("a")
+      for (var i=0, len=menu_tmps.length; i<len; i++) {
+         if (menu_tmps[i].className.search("globalNav")>=0) {
+            menu_tmps[i].onmouseover=function() {
+               for (var j=0, sublen=submenu.length; j<sublen; j++)
+                  submenu[j].style.display="none";
+               document.getElementById(this.id+"_sub").style.display="block";
+            }
+            menu_tmps[i].onfocus=menu_tmps[i].onmouseover;
+         }
+      }
+   }
+</script>
+<style>
+#wrap { width:1024px; height:768px; float:center;}
+.center {
+    margin: auto;
+}
+#bottom {
+	width:1024px;
+	height:100px;
+	
+}
+#submenu {
+	float:left;
+	width:200px;
+	height:100%;
+	padding-left:15px;
+	padding-top:55px;
+}
+
+#header { width:1024px; height:150px;}
+
+#button {
+	border:0;
+	width:500px;
+	height:30px;
+	float:top;
+	float:right;
+	margin-right:30px;
+	margin-top:30px;
+}
+#Name { border:0; width:300px; margin-left:10px; margin-top:10px; float:left;}
+
+#mark {
+	border:0;
+	width:60p;
+	margin-top:10px;
+	margin-right:20px;
+	float:right;
+}
+.menu {
+	border:0;
+	width:550px;
+	float:right;
+}
+
+#tile {
+	border:0;
+	width:1024px;
+	bgcolor:FFFFFF;
+	margin-left:0;
+	margin-top:0;
+	margin-right:0;
+	margin-bottom:0;
+}
+
+
+* {
+   margin: 0;
+   padding: 0;
+   color: #fff;
+}
+
+ul, li {
+   list-style:none;
+   padding: 10 5px;
+}
+
+#nav {
+   margin: 0;
+   padding: 0;
+   width: 600px;
+   height: 25px;
+}
+
+#nav li.globalNav {
+   margin-right: 30px;
+   margin-left: 30px;
+   padding: 5 10px;
+   float: left;
+   width: 40px;
+   border:0px solid;
+   height:10px;
+
+}
+
+* html #nav li.globalNav {
+   width: 200px;
+}
+
+
+.localNav li {
+   display: inline;
+   width:100px;
+}
+
+.localNav {
+   display: none;
+	border: 0px solid;
+	position:absoulte;
+   z-index: 1;
+}
+
+
+#menu01_sub{
+    top:105px;
+    width: 200px;
+}
+
+#menu02_sub{
+   top:105px;
+   width: 200px;
+}
+
+#menu05_sub{
+   top:105px;
+   width: 200px;
+}
+
+a.rollover img { border-width:0px; display:inline; }
+a.rollover img.over { display:none; }
+a.rollover:hover { border:0px }
+a.rollover:hover img { display:none; }
+a.rollover:hover img.over { display:inline; }
+
+</style>
+
+<body>
+
+<div id="wrap" class="center">
+
+
+
+<div class="body" align="center">
+    <div id="submenu" align="center">
+        <img src="images/side_menu_07.png" width="180px" style="margin-top:10px" />
+        <a href="contact_us.php"><img src="images/side_menu_07_1.png" width="180px" style="margin-top:10px" border="0"/></a>
+        
+    </div>
+
+    <div style="float:left; width:750px;">
+        <img src="images/line11.png" width="700"/>
+        <img src="images/address.png"/>
+        <br /><br /><br />
+        <img src="images/line12.png" width="700"/>
+        <img src="images/map.png"/>
+    </div>
+</div>
+
+
+<div id="bottom">
+
+    <img src="images/bottom_line.png">
+    <img src="images/bottom_1.png" width="300px" style="float:left; margin:20px;"/>
+    <img src="images/bottom_2.png" width="400px"style="float:right; margin:10px; margin-top:10px;"/>
+</div>
+
+
+</div>
+
+</body>
+</html>

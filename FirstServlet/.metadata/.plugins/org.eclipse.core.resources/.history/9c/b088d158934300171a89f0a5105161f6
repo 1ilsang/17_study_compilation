@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>가톨릭대학교-미디어기술콘텐츠학과</title>
+</head>
+
+<script>
+   onload=function() {
+      var submenu=new Array();
+      var sub_tmps=document.getElementById("nav").getElementsByTagName("ul");
+      for (var i=0, len=sub_tmps.length; i<len; i++) {
+         if (sub_tmps[i].className=="localNav")
+            submenu.push(sub_tmps[i]);
+      }
+      var menu_tmps=document.getElementById("nav").getElementsByTagName("a")
+      for (var i=0, len=menu_tmps.length; i<len; i++) {
+         if (menu_tmps[i].className.search("globalNav")>=0) {
+            menu_tmps[i].onmouseover=function() {
+               for (var j=0, sublen=submenu.length; j<sublen; j++)
+                  submenu[j].style.display="none";
+               document.getElementById(this.id+"_sub").style.display="block";
+            }
+            menu_tmps[i].onfocus=menu_tmps[i].onmouseover;
+         }
+      }
+   }
+</script>
+<style>
+#wrap { width:1024px; height:768px; float:center;}
+.center {
+    margin: auto;
+}
+#bottom {
+	width:1024px;
+	height:100px;
+	
+}
+#submenu {
+	float:left;
+	width:200px;
+	height:100%;
+	padding-left:15px;
+	padding-top:55px;
+}
+
+</style>
+
+<body>
+
+<div id="wrap" class="center">
+
+
+
+<div class="body" align="center">
+    <div id="submenu" align="center">
+        <img src="images/side_menu_07.png" width="180px" style="margin-top:10px" />
+        <a href="contact_us.php"><img src="images/side_menu_07_1.png" width="180px" style="margin-top:10px" border="0"/></a>
+        
+    </div>
+
+    <div style="float:left; width:750px;">
+        <img src="images/line11.png" width="700"/>
+        <img src="images/address.png"/>
+        <br /><br /><br />
+        <img src="images/line12.png" width="700"/>
+        <img src="images/map.png"/>
+    </div>
+</div>
+
+
+<div id="bottom">
+
+    <img src="images/bottom_line.png">
+    <img src="images/bottom_1.png" width="300px" style="float:left; margin:20px;"/>
+    <img src="images/bottom_2.png" width="400px"style="float:right; margin:10px; margin-top:10px;"/>
+</div>
+
+
+</div>
+
+</body>
+</html>

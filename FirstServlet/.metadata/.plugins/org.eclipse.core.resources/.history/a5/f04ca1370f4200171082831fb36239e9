@@ -1,0 +1,5 @@
+package com.edu.beans.copy;
+
+public class BookBean {
+
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="java.util.Enumeration"/>
+<fullyQualifiedTypeName name="com.edu.test.HeaderInfoServlet"/>
+<fullyQualifiedTypeName name="javax.servlet.ServletInputStream"/>
+<fullyQualifiedTypeName name="javax.servlet.ServletConfig"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="com.edu.test.ServletContextTest1Servlet"/>
+<fullyQualifiedTypeName name="com.edu.test.ShareObject"/>
+<fullyQualifiedTypeName name="javax.servlet.http.Cookie"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+<fullyQualifiedTypeName name="javax.servlet.ServletContext"/>
+<fullyQualifiedTypeName name="java.lang.StrictMath"/>
+<fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="javax.servlet.Filter"/>
+<fullyQualifiedTypeName name="javax.servlet.annotation.WebFilter"/>
+<fullyQualifiedTypeName name="java.lang.InterruptedException"/>
+<fullyQualifiedTypeName name="javax.servlet.ServletRequestListener"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpSessionListener"/>
+<fullyQualifiedTypeName name="com.edu.test.TestSessionListener"/>
+<fullyQualifiedTypeName name="com.edu.test.HttpSessionAttributeListener"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpSessionAttributeListener"/>
+<fullyQualifiedTypeName name="javax.servlet.ServletContextListener"/>
+<fullyQualifiedTypeName name="javax.servlet.annotation.WebListener"/>
+<fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="javax.servlet.jsp.tagext.TagSupport"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="javax.servlet.jsp.tagext.TagExtraInfo"/>
+<fullyQualifiedTypeName name="javax.servlet.jsp.tagext.JspFragment"/>
+<fullyQualifiedTypeName name="java.io.StringWriter"/>
+<fullyQualifiedTypeName name="javax.servlet.jsp.tagext.SimpleTagSupport"/>
+<fullyQualifiedTypeName name="javax.servlet.jsp.JspContext"/>
+<fullyQualifiedTypeName name="javax.servlet.jsp.JspWriter"/>
+</qualifiedTypeNameHistroy>

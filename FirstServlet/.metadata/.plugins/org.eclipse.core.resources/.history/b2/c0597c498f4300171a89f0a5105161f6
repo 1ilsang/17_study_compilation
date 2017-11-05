@@ -1,0 +1,394 @@
+<html>
+
+<?
+   $_zb_url = "http://dm.catholic.ac.kr/";
+   $_zb_path = "C:/Inetpub/wwwroot/Digital_Media/bbs/";
+   include $_zb_path."outlogin.php";
+?>
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+
+<style type ="text/css">
+BODY,TD,SELECT,input,DIV,form,TEXTAREA,center,TD {font-family:굴림;color:#000000;font-size:9pt;line-height:150%}
+a:link { color:#000000; text-decoration:none }
+a:visited { color:#000000; text-decoration:none }
+a:active { color:#000000; text-decoration:none }
+a:hover  {color:#000000;text-decoration:none}
+</style>
+
+
+<title>가톨릭대학교 - 디지털미디어 학부</title><style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image: url(images/main_bg_sub.jpg);
+	background-repeat: repeat-x;
+}
+-->
+</style>
+<link href="css/basic.css" rel="stylesheet" type="text/css">
+
+<script language="javascript">AC_FL_RunContent = 0;</script>
+<script src="AC_RunActiveContent.js" language="javascript"></script>
+
+
+<style type="text/css">
+<!--
+.style3 {
+	color: #999999;
+	font-weight: bold;
+}
+.style31 {font-size: 12px; color:#666666}
+-->
+</style>
+</head>
+
+<body >
+<table width="1040" height="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="main" >
+
+  <tr>
+    <td valign="top"><table width="1040" height="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="20">&nbsp;</td>
+        <td height="200
+        " valign="top"><table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td height="160" valign="top"><script language="javascript">
+	if (AC_FL_RunContent == 0) {
+		alert("This page requires AC_RunActiveContent.js.");
+	} else {
+		AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0','width','1000','height','160','id','main','align','middle','src','main','quality','high','wmode','transparent','bgcolor','#ffffff','name','main','allowscriptaccess','sameDomain','allowfullscreen','false','pluginspage','http://www.macromedia.com/go/getflashplayer','movie','main' ); //end AC code
+	}
+            </script>
+              <noscript>
+              <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" width="1000" height="160" hspace="0" vspace="0" align="middle" id="main">
+                <param name="allowScriptAccess" value="sameDomain" />
+                <param name="allowFullScreen" value="false" />
+                <param name="movie" value="main.swf" />
+                <param name="quality" value="high" />
+                <param name="wmode" value="transparent" />
+                <param name="bgcolor" value="#ffffff" />
+                <embed src="main.swf" width="1000" height="160" hspace="0" vspace="0" align="middle" quality="high" wmode="transparent" bgcolor="#ffffff" name="main" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />              
+              </object></noscript></td>
+          </tr>
+        </table></td>
+        <td width="20">&nbsp;</td>
+      </tr>
+        
+         <tr>
+        <td height="190">&nbsp;</td>
+        <td align="center" valign="top"><table width="950" border="0" cellpadding="0" cellspacing="0" class="main_contents">
+          <tr>
+            <td width="41" rowspan="3">&nbsp;</td>
+            <td width="185" rowspan="3" align="center" valign="top"><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" name="left_menu_21" width="180" height="400" align="middle" id="left_menu_21">
+              <param name="allowScriptAccess" value="sameDomain" />
+              <param name="allowFullScreen" value="false" />
+              <param name="movie" value="left_menu_21.swf" />
+              <param name="quality" value="high" />
+              <param name="wmode" value="transparent" />
+              <param name="bgcolor" value="#ffffff" />
+              <embed src="left_menu_21.swf" quality="high" wmode="transparent" bgcolor="#ffffff" width="180" height="400" name="left_menu_21" align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />        
+            </object></td>
+            <td height="40" colspan="2" align="right" valign="bottom"><span class="style31"># HOME &gt; 전공소개 &gt; 미디어공학전공&nbsp;&nbsp;</span></td>
+            <td width="60" rowspan="3">&nbsp;</td>
+          </tr>
+          <tr>
+            <td width="20">&nbsp;</td>
+            <td width="644" height="55" background="images/page_title_22_sub08.gif">&nbsp;</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td align="center"><p><br>            
+              <TABLE width="600" border="1" cellpadding="0" cellspacing="0" class="cu" style="border-collapse:collapse">
+                <TR>
+                  <TD width="100" align="center" valign="center" bgcolor="#ECEDEF"><p>이수시기</p>
+                    <p><SPAN lang="EN-US">(학년/학기)</SPAN></p></TD>
+                  <TD align="center" valign="center" bgcolor="#ECEDEF"><p>교과목명</p></TD>
+                  <TD width="50" align="center" valign="center" bgcolor="#ECEDEF"><p>시간/</p>
+                    <p>학점</p></TD>
+                  <TD width="50" align="center" valign="center" bgcolor="#ECEDEF"><p>이수</p>
+                    <p>구분</p></TD>
+                  <TD width="150" align="center" valign="center" bgcolor="#ECEDEF"><p>비고 / 변경 전</p></TD>
+                </TR>
+                <TR>
+                  <TD height="25" align="center" valign="center"><p><SPAN lang="EN-US">2/1</SPAN></p></TD>
+                  <TD valign="center"><p>　선형대수학</p></TD>
+                  <TD align="center" valign="center"><p><SPAN lang="EN-US">3/3</SPAN></p></TD>
+                  <TD align="center" valign="center"><p>전필</p></TD>
+                  <TD align="center" valign="center">&nbsp;</TD>
+                </TR>
+                <TR>
+                  <TD height="25" align="center" valign="center">&nbsp;</TD>
+                  <TD valign="center"><p>　데이터구조</p></TD>
+                  <TD align="center" valign="center"><p><SPAN lang="EN-US">3/3</SPAN></p></TD>
+                  <TD align="center" valign="center"><p>전선</p></TD>
+                  <TD align="center" valign="center">&nbsp;</TD>
+                </TR>
+                <TR>
+                  <TD height="25" align="center" valign="center">&nbsp;</TD>
+                  <TD valign="center"><p>　콘텐츠디자인기초1</p></TD>
+                  <TD align="center" valign="center"><p><SPAN lang="EN-US">3/3</SPAN></p></TD>
+                  <TD align="center" valign="center"><p>전선</p></TD>
+                  <TD align="center" valign="center"><p>신설(공통)</p></TD>
+                </TR>
+                <TR>
+                  <TD height="25" align="center" valign="center">&nbsp;</TD>
+                  <TD valign="center"><p>　멀티미디어시스템개론</p></TD>
+                  <TD align="center" valign="center"><p><SPAN lang="EN-US">4/3</SPAN></p></TD>
+                  <TD align="center" valign="center"><p>전선</p></TD>
+                  <TD align="center" valign="center"><p>학부공통</p></TD>
+                </TR>
+                <TR>
+                  <TD height="25" align="center" valign="center">&nbsp;</TD>
+                  <TD valign="center"><p>　신호처리개론</p></TD>
+                  <TD align="center" valign="center"><p><SPAN lang="EN-US">3/3</SPAN></p></TD>
+                  <TD align="center" valign="center"><p>전선</p></TD>
+                  <TD align="center" valign="center">&nbsp;</TD>
+                </TR>
+                <TR>
+                  <TD height="25" align="center" valign="center">&nbsp;</TD>
+                  <TD valign="center"><p>　창의입문설계</p></TD>
+                  <TD align="center" valign="center"><p><SPAN lang="EN-US">3/3</SPAN></p></TD>
+                  <TD align="center" valign="center"><p>전선</p></TD>
+                  <TD align="center" valign="center"><p>학부공통</p></TD>
+                </TR>
+                <TR>
+                  <TD height="25" align="center" valign="center"><p><SPAN lang="EN-US">2/2</SPAN></p></TD>
+                  <TD valign="center"><p>　확률과통계</p></TD>
+                  <TD align="center" valign="center"><p><SPAN lang="EN-US">3/3</SPAN></p></TD>
+                  <TD align="center" valign="center"><p>전필</p></TD>
+                  <TD align="center" valign="center">&nbsp;</TD>
+                </TR>
+                <TR>
+                  <TD height="25" align="center" valign="center">&nbsp;</TD>
+                  <TD valign="center"><p>　논리회로및실험</p></TD>
+                  <TD align="center" valign="center"><p><SPAN lang="EN-US">4/3</SPAN></p></TD>
+                  <TD align="center" valign="center"><p>전선</p></TD>
+                  <TD align="center" valign="center">&nbsp;</TD>
+                </TR>
+                <TR>
+                  <TD height="25" align="center" valign="center">&nbsp;</TD>
+                  <TD valign="center"><p>　미디어와인터넷</p></TD>
+                  <TD align="center" valign="center"><p><SPAN lang="EN-US">4/3</SPAN></p></TD>
+                  <TD align="center" valign="center"><p>전선</p></TD>
+                  <TD align="center" valign="center"><p>학부공통</p></TD>
+                </TR>
+                <TR>
+                  <TD height="25" align="center" valign="center">&nbsp;</TD>
+                  <TD valign="center"><p>　윈도우즈 프로그래밍</p></TD>
+                  <TD align="center" valign="center"><p><SPAN lang="EN-US">3/3</SPAN></p></TD>
+                  <TD align="center" valign="center"><p>전선</p></TD>
+                  <TD align="center" valign="center"><p>신설</p></TD>
+                </TR>
+                <TR>
+                  <TD height="25" align="center" valign="center">&nbsp;</TD>
+                  <TD valign="center"><p>　영상및비디오처리</p></TD>
+                  <TD align="center" valign="center"><p><SPAN lang="EN-US">4/3</SPAN></p></TD>
+                  <TD align="center" valign="center"><p>전선</p></TD>
+                  <TD align="center" valign="center">&nbsp;</TD>
+                </TR>
+                <TR>
+                  <TD height="25" align="center" valign="center">&nbsp;</TD>
+                  <TD valign="center"><p>　자바프로그래밍</p></TD>
+                  <TD align="center" valign="center"><p><SPAN lang="EN-US">3/3</SPAN></p></TD>
+                  <TD align="center" valign="center"><p>전선</p></TD>
+                  <TD align="center" valign="center">&nbsp;</TD>
+                </TR>
+                <TR>
+                  <TD height="25" align="center" valign="center" bgcolor="#ECEDEF"><p><SPAN lang="EN-US">3/1</SPAN></p></TD>
+                  <TD valign="center" bgcolor="#ECEDEF"><p>　게임프로그래밍</p></TD>
+                  <TD align="center" valign="center" bgcolor="#ECEDEF"><p><SPAN lang="EN-US">3/3</SPAN></p></TD>
+                  <TD align="center" valign="center" bgcolor="#ECEDEF"><p>전선</p></TD>
+                  <TD align="center" valign="center" bgcolor="#ECEDEF">&nbsp;</TD>
+                </TR>
+                <TR>
+                  <TD height="25" align="center" valign="center" bgcolor="#ECEDEF">&nbsp;</TD>
+                  <TD valign="center" bgcolor="#ECEDEF"><p>　로봇공학개론</p></TD>
+                  <TD align="center" valign="center" bgcolor="#ECEDEF"><p><SPAN lang="EN-US">3/3</SPAN></p></TD>
+                  <TD align="center" valign="center" bgcolor="#ECEDEF"><p>전선</p></TD>
+                  <TD align="center" valign="center" bgcolor="#ECEDEF">&nbsp;</TD>
+                </TR>
+                <TR>
+                  <TD height="25" align="center" valign="center" bgcolor="#ECEDEF">&nbsp;</TD>
+                  <TD valign="center" bgcolor="#ECEDEF"><p>　미디어처리알고리즘설계</p></TD>
+                  <TD align="center" valign="center" bgcolor="#ECEDEF"><p><SPAN lang="EN-US">3/3</SPAN></p></TD>
+                  <TD align="center" valign="center" bgcolor="#ECEDEF"><p>전선</p></TD>
+                  <TD align="center" valign="center" bgcolor="#ECEDEF">&nbsp;</TD>
+                </TR>
+                <TR>
+                  <TD height="25" align="center" valign="center" bgcolor="#ECEDEF">&nbsp;</TD>
+                  <TD valign="center" bgcolor="#ECEDEF"><p>　운영체제</p></TD>
+                  <TD align="center" valign="center" bgcolor="#ECEDEF"><p><SPAN lang="EN-US">3/3</SPAN></p></TD>
+                  <TD align="center" valign="center" bgcolor="#ECEDEF"><p>전선</p></TD>
+                  <TD align="center" valign="center" bgcolor="#ECEDEF">&nbsp;</TD>
+                </TR>
+                <TR>
+                  <TD height="25" align="center" valign="center" bgcolor="#ECEDEF">&nbsp;</TD>
+                  <TD valign="center" bgcolor="#ECEDEF"><p>　컴퓨터구조</p></TD>
+                  <TD align="center" valign="center" bgcolor="#ECEDEF"><p><SPAN lang="EN-US">3/3</SPAN></p></TD>
+                  <TD align="center" valign="center" bgcolor="#ECEDEF"><p>전선</p></TD>
+                  <TD align="center" valign="center" bgcolor="#ECEDEF">&nbsp;</TD>
+                </TR>
+                <TR>
+                  <TD height="25" align="center" valign="center" bgcolor="#ECEDEF">&nbsp;</TD>
+                  <TD valign="center" bgcolor="#ECEDEF"><p>　패턴인식및기계학습입문</p></TD>
+                  <TD align="center" valign="center" bgcolor="#ECEDEF"><p><SPAN lang="EN-US">4/3</SPAN></p></TD>
+                  <TD align="center" valign="center" bgcolor="#ECEDEF"><p>전선</p></TD>
+                  <TD align="center" valign="center" bgcolor="#ECEDEF">&nbsp;</TD>
+                </TR>
+                <TR>
+                  <TD height="25" align="center" valign="center" bgcolor="#ECEDEF"><p><SPAN lang="EN-US">3/2</SPAN></p></TD>
+                  <TD valign="center" bgcolor="#ECEDEF"><p>　내장형시스템</p></TD>
+                  <TD align="center" valign="center" bgcolor="#ECEDEF"><p><SPAN lang="EN-US">3/3</SPAN></p></TD>
+                  <TD align="center" valign="center" bgcolor="#ECEDEF"><p>전선</p></TD>
+                  <TD align="center" valign="center" bgcolor="#ECEDEF">&nbsp;</TD>
+                </TR>
+                <TR>
+                  <TD height="25" align="center" valign="center" bgcolor="#ECEDEF">&nbsp;</TD>
+                  <TD valign="center" bgcolor="#ECEDEF"><p>　마이크로프로세서</p></TD>
+                  <TD align="center" valign="center" bgcolor="#ECEDEF"><p><SPAN lang="EN-US">3/3</SPAN></p></TD>
+                  <TD align="center" valign="center" bgcolor="#ECEDEF"><p>전선</p></TD>
+                  <TD align="center" valign="center" bgcolor="#ECEDEF">&nbsp;</TD>
+                </TR>
+                <TR>
+                  <TD height="25" align="center" valign="center" bgcolor="#ECEDEF">&nbsp;</TD>
+                  <TD valign="center" bgcolor="#ECEDEF"><p>　웹프로그래밍</p></TD>
+                  <TD align="center" valign="center" bgcolor="#ECEDEF"><p><SPAN lang="EN-US">3/3</SPAN></p></TD>
+                  <TD align="center" valign="center" bgcolor="#ECEDEF"><p>전선</p></TD>
+                  <TD align="center" valign="center" bgcolor="#ECEDEF">&nbsp;</TD>
+                </TR>
+                <TR>
+                  <TD height="25" align="center" valign="center" bgcolor="#ECEDEF">&nbsp;</TD>
+                  <TD valign="center" bgcolor="#ECEDEF"><p>　컴퓨터네트워크</p></TD>
+                  <TD align="center" valign="center" bgcolor="#ECEDEF"><p><SPAN lang="EN-US">3/3</SPAN></p></TD>
+                  <TD align="center" valign="center" bgcolor="#ECEDEF"><p>전선</p></TD>
+                  <TD align="center" valign="center" bgcolor="#ECEDEF">&nbsp;</TD>
+                </TR>
+                <TR>
+                  <TD height="25" align="center" valign="center" bgcolor="#ECEDEF">&nbsp;</TD>
+                  <TD valign="center" bgcolor="#ECEDEF"><p>　컴퓨터그래픽스</p></TD>
+                  <TD align="center" valign="center" bgcolor="#ECEDEF"><p><SPAN lang="EN-US">4/3</SPAN></p></TD>
+                  <TD align="center" valign="center" bgcolor="#ECEDEF"><p>전선</p></TD>
+                  <TD align="center" valign="center" bgcolor="#ECEDEF">&nbsp;</TD>
+                </TR>
+                <TR>
+                  <TD height="25" align="center" valign="center" bgcolor="#ECEDEF">&nbsp;</TD>
+                  <TD valign="center" bgcolor="#ECEDEF"><p>　컴퓨터비전</p></TD>
+                  <TD align="center" valign="center" bgcolor="#ECEDEF"><p><SPAN lang="EN-US">4/3</SPAN></p></TD>
+                  <TD align="center" valign="center" bgcolor="#ECEDEF"><p>전선</p></TD>
+                  <TD align="center" valign="center" bgcolor="#ECEDEF">&nbsp;</TD>
+                </TR>
+                <TR>
+                  <TD height="25" align="center" valign="center"><p><SPAN lang="EN-US">4/1</SPAN></p></TD>
+                  <TD valign="center"><p>　창의적미디어프로젝트</p></TD>
+                  <TD align="center" valign="center"><p><SPAN lang="EN-US">3/3</SPAN></p></TD>
+                  <TD align="center" valign="center"><p>전필</p></TD>
+                  <TD align="center" valign="center">&nbsp;</TD>
+                </TR>
+                <TR>
+                  <TD height="25" align="center" valign="center">&nbsp;</TD>
+                  <TD valign="center"><p>　미디어네트워크프로그래밍</p></TD>
+                  <TD align="center" valign="center"><p><SPAN lang="EN-US">3/3</SPAN></p></TD>
+                  <TD align="center" valign="center"><p>전선</p></TD>
+                  <TD align="center" valign="center">&nbsp;</TD>
+                </TR>
+                <TR>
+                  <TD height="25" align="center" valign="center">&nbsp;</TD>
+                  <TD valign="center"><p>　비주얼특수효과</p></TD>
+                  <TD align="center" valign="center"><p><SPAN lang="EN-US">4/3</SPAN></p></TD>
+                  <TD align="center" valign="center"><p>전선</p></TD>
+                  <TD align="center" valign="center">&nbsp;</TD>
+                </TR>
+                <TR>
+                  <TD height="25" align="center" valign="center">&nbsp;</TD>
+                  <TD valign="center"><p>　사운드디자인및편집</p></TD>
+                  <TD align="center" valign="center"><p><SPAN lang="EN-US">4/3</SPAN></p></TD>
+                  <TD align="center" valign="center"><p>전선</p></TD>
+                  <TD align="center" valign="center"><p>학부공통</p></TD>
+                </TR>
+                <TR>
+                  <TD height="25" align="center" valign="center">&nbsp;</TD>
+                  <TD valign="center"><p>　인간과상호작용</p></TD>
+                  <TD align="center" valign="center"><p><SPAN lang="EN-US">3/3</SPAN></p></TD>
+                  <TD align="center" valign="center"><p>전선</p></TD>
+                  <TD align="center" valign="center">&nbsp;</TD>
+                </TR>
+                <TR>
+                  <TD height="25" align="center" valign="center">&nbsp;</TD>
+                  <TD valign="center"><p>　컴퓨터애니메이션</p></TD>
+                  <TD align="center" valign="center"><p><SPAN lang="EN-US">3/3</SPAN></p></TD>
+                  <TD align="center" valign="center"><p>전선</p></TD>
+                  <TD align="center" valign="center">&nbsp;</TD>
+                </TR>
+                <TR>
+                  <TD height="25" align="center" valign="center"><p><SPAN lang="EN-US">4/2</SPAN></p></TD>
+                  <TD valign="center"><p><SPAN lang="EN-US">　3D그래픽스</SPAN></p></TD>
+                  <TD align="center" valign="center"><p><SPAN lang="EN-US">3/3</SPAN></p></TD>
+                  <TD align="center" valign="center"><p>전선</p></TD>
+                  <TD align="center" valign="center">&nbsp;</TD>
+                </TR>
+                <TR>
+                  <TD height="25" align="center" valign="center">&nbsp;</TD>
+                  <TD valign="center"><p>　디지털TV및방송</p></TD>
+                  <TD align="center" valign="center"><p><SPAN lang="EN-US">3/3</SPAN></p></TD>
+                  <TD align="center" valign="center"><p>전선</p></TD>
+                  <TD align="center" valign="center">&nbsp;</TD>
+                </TR>
+                <TR>
+                  <TD height="25" align="center" valign="center">&nbsp;</TD>
+                  <TD valign="center"><p>　멀티미디어정보검색</p></TD>
+                  <TD align="center" valign="center"><p><SPAN lang="EN-US">4/3</SPAN></p></TD>
+                  <TD align="center" valign="center"><p>전선</p></TD>
+                  <TD align="center" valign="center">&nbsp;</TD>
+                </TR>
+                <TR>
+                  <TD height="25" align="center" valign="center">&nbsp;</TD>
+                  <TD valign="center"><p>　멀티미디어특강</p></TD>
+                  <TD align="center" valign="center"><p><SPAN lang="EN-US">3/3</SPAN></p></TD>
+                  <TD align="center" valign="center"><p>전선</p></TD>
+                  <TD align="center" valign="center"><p>전필대체과목</p></TD>
+                </TR>
+                <TR>
+                  <TD height="25" align="center" valign="center">&nbsp;</TD>
+                  <TD valign="center"><p>　모바일게임</p></TD>
+                  <TD align="center" valign="center"><p><SPAN lang="EN-US">3/3</SPAN></p></TD>
+                  <TD align="center" valign="center"><p>전선</p></TD>
+                  <TD align="center" valign="center">&nbsp;</TD>
+                </TR>
+                <TR>
+                  <TD height="25" align="center" valign="center">&nbsp;</TD>
+                  <TD valign="center"><p>　증강현실</p></TD>
+                  <TD align="center" valign="center"><p><SPAN lang="EN-US">3/3</SPAN></p></TD>
+                  <TD align="center" valign="center"><p>전선</p></TD>
+                  <TD align="center" valign="center">&nbsp;</TD>
+                </TR>
+              </TABLE>
+              </p></td>
+          </tr>
+        </table></td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td height="100%" align="center">&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="74">&nbsp;</td>
+        <td align="center"><table width="950" border="0" cellpadding="0" cellspacing="0" background="images/bottom.gif">
+          <tr>
+            <td height="74">&nbsp;</td>
+          </tr>
+        </table></td>
+        <td>&nbsp;</td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+</body>
+</html>

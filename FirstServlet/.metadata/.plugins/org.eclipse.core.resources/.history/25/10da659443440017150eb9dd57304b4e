@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>edu</display-name>
+  <context-param><!-- 모든 Servlet에서 사용할 초기화 변수. -->
+ 	<param-name>contextConfig</param-name>
+ 	<param-value>/WEB-INF/context.xml</param-value>	
+  </context-param>
+  
+  <resource-ref>
+  	<description>Oracle Datasource example</description>
+  	<res-ref-name>jdbc/myoracle</res-ref-name>
+  	<res-type>javax.sql.DataSource</res-type>
+  	<res-auth>Container</res-auth>
+  </resource-ref>
+  <!-- 
+  <filter>
+  	<filter-name>flow1</filter-name>
+  	<filter-class>com.edu.test.FlowFilterOne</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>flow1</filter-name>
+	<url-pattern>/second</url-pattern>
+  </filter-mapping>
+  
+  <filter>
+  	<filter-name>flow2</filter-name>
+  	<filter-class>com.edu.test.FlowFilterTwo</filter-class>
+  	<init-param>
+  		<param-name>en</param-name>
+  		<param-value>UTF-8</param-value>
+  	</init-param>
+  </filter>
+  <filter-mapping>
+  	<filter-name>flow2</filter-name>
+	<url-pattern>/*</url-pattern>
+  </filter-mapping>
+   -->
+   <!-- 
+     <listener>
+  	<listener-class>com.edu.test.TestServletContextListener</listener-class>
+  </listener>
+   
+     <listener>
+  	<listener-class>com.edu.test.TestSessionAttributeListener</listener-class>
+  </listener>
+    <listener>
+  	<listener-class>com.edu.test.TestSessionListener</listener-class>
+  </listener>
+  <listener>
+  	<listener-class>com.edu.test.TestRequestListener</listener-class>
+  </listener> -->
+  
+  <servlet>
+ <servlet-name>addInfo</servlet-name>
+ <servlet-class>com.edu.test.AdditionallInfoServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>addInfo</servlet-name>
+ <url-pattern>/addInfo</url-pattern>
+ </servlet-mapping> 
+
+<servlet>
+	<servlet-name>initParam</servlet-name>
+	<servlet-class>com.edu.test.InitParamServlet</servlet-class>
+	<init-param>
+		<param-name>id</param-name>
+		<param-value>guest</param-value>
+	</init-param>
+	<init-param>
+		<param-name>password</param-name>
+		<param-value>1004</param-value>
+	</init-param>
+	<load-on-startup>1</load-on-startup>
+</servlet>
+<servlet-mapping>
+	<servlet-name>initParam</servlet-name>
+	<url-pattern>/initParamtest</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>servletConfigTest</servlet-name>
+	<servlet-class>com.edu.test.ServletConfigTestServlet</servlet-class>
+	<init-param>
+		<param-name>charchar</param-name>
+		<param-value>UTF-8</param-value>
+	</init-param>
+</servlet>
+<servlet-mapping>
+	<servlet-name>servletConfigTest</servlet-name>
+	<url-pattern>/servletConfigTest</url-pattern>
+</servlet-mapping>
+
+<error-page>
+	<error-code>405</error-code>
+	<location>/errorHandle</location>
+</error-page>
+<error-page>
+	<exception-type>java.lang.NullPointerException</exception-type>
+	<location>/errorHandle</location>
+</error-page>
+</web-app>

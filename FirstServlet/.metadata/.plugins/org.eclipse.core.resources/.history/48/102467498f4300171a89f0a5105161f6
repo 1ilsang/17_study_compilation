@@ -1,0 +1,102 @@
+<html>
+
+<?
+   $_zb_url = "http://dm.catholic.ac.kr/";
+   $_zb_path = "C:/Inetpub/wwwroot/Digital_Media/bbs/";
+   include $_zb_path."outlogin.php";
+?>
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+
+<style type ="text/css">
+BODY,TD,SELECT,input,DIV,form,TEXTAREA,center,TD {font-family:굴림;color:#000000;font-size:9pt;line-height:150%}
+a:link { color:#000000; text-decoration:none }
+a:visited { color:#000000; text-decoration:none }
+a:active { color:#000000; text-decoration:none }
+a:hover  {color:#000000;text-decoration:none}
+</style>
+
+
+<title>가톨릭대학교 - 디지털미디어 학부</title><style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image: url(http://dm.catholic.ac.kr/09_home/images/main_bg_sub.jpg);
+	background-repeat: repeat-x;
+}
+-->
+</style>
+<link href="css/basic.css" rel="stylesheet" type="text/css">
+
+<script language="javascript">AC_FL_RunContent = 0;</script>
+<script src="AC_RunActiveContent.js" language="javascript"></script>
+
+
+<style type="text/css">
+<!--
+.style3 {
+	color: #999999;
+	font-weight: bold;
+}
+.style31 {font-size: 12px; color:#666666}
+-->
+</style>
+</head>
+
+<body >
+<table width="1040" height="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="main" >
+
+  <tr>
+    <td valign="top"><table width="1040" height="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="20">&nbsp;</td>
+        <td height="200
+        " valign="top"><table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td height="160" valign="top"><script language="javascript">
+	if (AC_FL_RunContent == 0) {
+		alert("This page requires AC_RunActiveContent.js.");
+	} else {
+		AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0','width','1000','height','160','id','main','align','middle','src','http://dm.catholic.ac.kr/09_home/main','quality','high','wmode','transparent','bgcolor','#ffffff','name','main','allowscriptaccess','sameDomain','allowfullscreen','false','pluginspage','http://www.macromedia.com/go/getflashplayer','movie','http://dm.catholic.ac.kr/09_home/main' ); //end AC code
+	}
+            </script>
+              
+              <?php
+              include "header.html"
+              ?>
+              
+              </td>
+          </tr>
+        </table></td>
+        <td width="20">&nbsp;</td>
+      </tr>
+        
+         <tr>
+        <td height="190">&nbsp;</td>
+        <td align="center" valign="top"><table width="950" border="0" cellpadding="0" cellspacing="0" class="main_contents">
+          <tr>
+            <td width="41" rowspan="3">&nbsp;</td>
+            <td width="185" rowspan="3" align="center" valign="top"><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" name="left_menu_4" width="180" height="400" align="middle" id="left_menu_4">
+              <param name="allowScriptAccess" value="sameDomain" />
+              <param name="allowFullScreen" value="false" />
+              <param name="movie" value="http://dm.catholic.ac.kr/09_home/left_menu_41.swf" />
+              <param name="quality" value="high" />
+              <param name="wmode" value="transparent" />
+              <param name="bgcolor" value="#ffffff" />
+              <embed src="http://dm.catholic.ac.kr/09_home/left_menu_41.swf" quality="high" wmode="transparent" bgcolor="#ffffff" width="180" height="400" name="left_menu_4" align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />        
+            </object></td>
+            <td height="40" colspan="2" align="right" valign="bottom"><span class="style31"># HOME &gt; 커뮤니티 &gt; 공지사항&nbsp;&nbsp;</span></td>
+            <td width="60" rowspan="3">&nbsp;</td>
+          </tr>
+          <tr>
+            <td width="20">&nbsp;</td>
+            <td width="644" height="55" background="http://dm.catholic.ac.kr/09_home/images/page_title_41.gif">&nbsp;</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td align="center" height="400" valign="top">

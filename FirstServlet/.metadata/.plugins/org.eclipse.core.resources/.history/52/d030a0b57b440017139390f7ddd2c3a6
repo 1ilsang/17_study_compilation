@@ -1,0 +1,4 @@
+<%@ tag body-content="empty" pageEncoding="utf-8"%>
+
+<%@ attribute name="num1" required="true"%>
+<%@ attribute name="num2" required="true"%>
